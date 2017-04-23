@@ -1,23 +1,19 @@
 {
   "name": "travellers-website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mystikal79/travellers-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mystikal79/travellers-website/issues"
-  },
-  "homepage": "https://github.com/Mystikal79/travellers-website#readme",
   "dependencies": {
     "jquery": "^3.2.1",
     "normalize.css": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.4.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-import": "^9.1.0",
+    "postcss-mixins": "^5.4.1",
+    "postcss-nested": "^1.0.1",
+    "postcss-simple-vars": "^3.1.0"
   }
 }
